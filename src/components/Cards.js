@@ -13,33 +13,33 @@ function Cards() {
               src="images/img-9.jpg"
               text="In this chapter we will explore and learn about variables "
               label="Unit 1"
-              path="/services"
+              path="/unit1"
             />
             <CardItem
               src="images/img-2.jpg"
-              text="Travel through the Islands of Bali in a Private Cruise"
-              label="Luxury"
-              path="/services"
+              text="In this chapter we will explore and learn about input and characters"
+              label="Unit 2"
+              path="/unit2"
             />
           </ul>
           <ul className="cards__items">
             <CardItem
               src="images/img-3.jpg"
-              text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
-              label="Mystery"
-              path="/services"
+              text="In this chapter we will explore and learn about conditions"
+              label="Unit 3"
+              path="/unit3"
             />
             <CardItem
               src="images/img-4.jpg"
-              text="Experience Football on Top of the Himilayan Mountains"
-              label="Adventure"
-              path="/products"
+              text="Soon the unit will be ready"
+              label="Unit 4"
+              path="/soon"
             />
             <CardItem
               src="images/img-8.jpg"
-              text="Ride through the Sahara Desert on a guided camel tour"
-              label="Adrenaline"
-              path="/sign-up"
+              text="Soon the unit will be ready"
+              label="Unit 5"
+              path="/soon"
             />
           </ul>
         </div>

@@ -1,6 +1,7 @@
 .cards {
   padding: 4rem;
-  background: #fff;
+  background: rgb(224, 228, 243);
+  /*background: url("/images/book.jpg") center center/cover no-repeat;*/
 }
 
 h1 {
@@ -66,7 +67,7 @@ h1 {
   font-size: 12px;
   font-weight: 700;
   color: #fff;
-  background-color: #1f98f4;
+  background-color: #eb6be0;
   box-sizing: border-box;
 }
 
