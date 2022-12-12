@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import "../../games/memoryGame/Game.css";
 
 const cardImages = [
-  { src: "./imgGame/ring-1.jpg" },
-  { src: "./imgGame/sword-1.jpg" },
-  { src: "./imgGame/shield-1.jpg" },
-  { src: "./imgGame/potion-1.jpg" },
-  { src: "./imgGame/scroll-1.jpg" },
-  { src: "./imgGame/helmet-1.jpg" },
+  { src: "../../../../public/images/img-2.jpg" },
+  { src: "../../../../public/images/img-2.jpg" },
+  { src: "../../../../public/images/img-2.jpg" },
+  { src: "../../../../public/images/img-2.jpg" },
+  { src: "../../../../public/images/img-2.jpg" },
+  { src: "../../../../public/images/img-2.jpg" },
 ];
 
 function Game() {
