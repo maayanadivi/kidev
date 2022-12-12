@@ -1,19 +1,18 @@
 import React, { useState } from "react";
 import "../../games/memoryGame/Game.css";
-//import imgGame from "./imgGame";
 
 const cardImages = [
-  { src: "" },
-  { src: "" },
-  { src: "" },
-  { src: "" },
-  { src: "" },
-  { src: "" },
+  { src: "./imgGame/ring-1.jpg" },
+  { src: "./imgGame/sword-1.jpg" },
+  { src: "./imgGame/shield-1.jpg" },
+  { src: "./imgGame/potion-1.jpg" },
+  { src: "./imgGame/scroll-1.jpg" },
+  { src: "./imgGame/helmet-1.jpg" },
 ];
 
 function Game() {
-  const [cards, setCards] = useState();
-  const [turns, setTurns] = useState();
+  const [cards, setCards] = useState([]);
+  const [turns, setTurns] = useState(0);
 
   // shuffle cards
   const shuffleCards = () => {
@@ -49,4 +48,5 @@ function Game() {
     </div>
   );
 }
+
 export default Game;
