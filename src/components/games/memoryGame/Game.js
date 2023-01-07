@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "../../games/memoryGame/Game.css";
-import ring from "./imgGame/ring-1.png";
-import helmet from "./imgGame/helmet-1.png";
-import potion from "./imgGame/potion-1.png";
-import scroll from "./imgGame/scroll-1.png";
-import shield from "./imgGame/shield-1.png";
-import sword from "./imgGame/sword-1.png";
+import ring from "./imgGame/1.png";
+import helmet from "./imgGame/2.png";
+import potion from "./imgGame/3.png";
+import scroll from "./imgGame/4.png";
+import shield from "./imgGame/5.png";
+import sword from "./imgGame/6.png";
 //import cover from "./imgGame/cover.png";
 import SingleCard from "./SingleCard";
 
