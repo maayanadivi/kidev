@@ -9,25 +9,27 @@ import Unit1 from "./components/pages/Unit1";
 import Unit2 from "./components/pages/Unit2";
 import Unit3 from "./components/pages/Unit3";
 import Soon from "./components/pages/Soon";
+import Sponsers from "./components/pages/Sponsers";
 
 function App() {
-	return (
-		<>
-			<Router>
-				<Navbar />
-				<Routes>
-					<Route path="/" exact element={<Home />} />
-					<Route path="/services" element={Services} />
-					<Route path="/unit1" exact element={<Unit1 />} />
-					<Route path="/unit2" exact element={<Unit2 />} />
-					<Route path="/unit3" exact element={<Unit3 />} />
-					<Route path="/soon" exact element={<Soon />} />
-					<Route path="/soon" exact element={<Soon />} />
-					<Route path="/sign-up" element={SignUp} />
-				</Routes>
-			</Router>
-		</>
-	);
+  return (
+    <>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+          <Route path="/services" element={Services} />
+          <Route path="/Sponsers" exact element={<Sponsers />} />
+          <Route path="/unit1" exact element={<Unit1 />} />
+          <Route path="/unit2" exact element={<Unit2 />} />
+          <Route path="/unit3" exact element={<Unit3 />} />
+          <Route path="/soon" exact element={<Soon />} />
+          <Route path="/soon" exact element={<Soon />} />
+          <Route path="/sign-up" element={SignUp} />
+        </Routes>
+      </Router>
+    </>
+  );
 }
 
 export default App;
