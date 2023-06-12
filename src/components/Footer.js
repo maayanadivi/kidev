@@ -3,7 +3,6 @@ import "./Footer.css";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import ReactWhatsapp from "react-whatsapp";
-import Sponsers from "./pages/Sponsers";
 
 function Footer() {
   function openPopup() {
@@ -36,10 +35,8 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>About Us</h2>
-            <a href="https://drive.google.com/file/d/0B4jg2aliAy_lVUxFSUtXd1QwX2F2NTFvZno5NHRYYmlKMjVV/view?usp=sharing&resourcekey=0-uT5fbufhWEPFPPDgkSycTA">
-              How it works
-            </a>
-            <Link to="/Sponsers">Investors</Link>
+            <a href="https://github.com/maayanadivi/kidev">How it works</a>
+            <Link to="/Investors">Our vision</Link>
             <Link to="/" onClick={openPopup}>
               Terms of Service{" "}
             </Link>
@@ -49,7 +46,7 @@ function Footer() {
             <a href="https://api.whatsapp.com/send/?phone=972508688129&text&type=phone_number&app_absent=0">
               Support
             </a>
-            <Link to="/">Destinations</Link>
+            <Link to="/Hiring">We Are Hiring</Link>
             <Link to="/Sponsers">Sponsorships</Link>
           </div>
         </div>
@@ -62,44 +59,47 @@ function Footer() {
               <i class="fa-solid fa-chalkboard" />
             </Link>
           </div>
-          <small class="website-rights">KIDEV © 2022</small>
+          <small class="website-rights">KIDEV © 2023</small>
           <div class="social-icons">
-            <Link
-              class="social-icon-link facebook"
-              to="/"
+            <a
+              className="social-icon-link facebook"
+              href="https://www.facebook.com/SCE.Bsc?mibextid=LQQJ4d"
               target="_blank"
-              aria-label="Facebook"
+              rel="noopener noreferrer"
+              aria-label="facebook"
             >
               <i class="fab fa-facebook-f" />
-            </Link>
-            <Link
-              class="social-icon-link instagram"
-              to="/"
+            </a>
+            <a
+              className="social-icon-link instagram"
+              href="https://instagram.com/sce.academy?igshid=MzRlODBiNWFlZA=="
               target="_blank"
+              rel="noopener noreferrer"
               aria-label="Instagram"
             >
-              <i class="fab fa-instagram" />
-            </Link>
+              <i className="fab fa-instagram" />
+            </a>
 
-            <Link
-              class="social-icon-link whatsapp"
-              to="/"
+            <a
+              className="social-icon-link whatsapp"
+              href="https://instagram.com/sce.academy?igshid=MzRlODBiNWFlZA=="
               target="_blank"
+              rel="noopener noreferrer"
               aria-label="whatsapp"
             >
               <ReactWhatsapp number="+972508688129">
                 <i class="fa-brands fa-whatsapp"></i>
               </ReactWhatsapp>
-            </Link>
-            <Link
-              class="social-icon-link linkedin"
-              to="/"
-              target="_blank"
-              aria-label="LinkedIn"
+            </a>
+            <a
+              className="social-icon-link linkedin"
               href="https://www.linkedin.com/school/-sce/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="linkedin"
             >
-              <i class="fab fa-linkedin" />
-            </Link>
+              <i className="fab fa-linkedin" />
+            </a>
           </div>
         </div>
       </section>

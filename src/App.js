@@ -10,6 +10,8 @@ import Unit2 from "./components/pages/Unit2";
 import Unit3 from "./components/pages/Unit3";
 import Soon from "./components/pages/Soon";
 import Sponsers from "./components/pages/Sponsers";
+import Investors from "./components/pages/Investors";
+import Hiring from "./components/pages/Hiring";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path="/" exact element={<Home />} />
           <Route path="/services" element={Services} />
           <Route path="/Sponsers" exact element={<Sponsers />} />
+          <Route path="/Hiring" exact element={<Hiring />} />
+          <Route path="/Investors" exact element={<Investors />} />
           <Route path="/unit1" exact element={<Unit1 />} />
           <Route path="/unit2" exact element={<Unit2 />} />
           <Route path="/unit3" exact element={<Unit3 />} />
