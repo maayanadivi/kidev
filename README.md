@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# KIDEV 
+## A programming learning site for children
+## The site was established by Maayan Nadivi & Alice Aidlin
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+We have built a friendly and interesting website for children, which offers a variety of educational games and learning programming in a colorful and fun way.
+The site is in Hebrew and provides free study materials.
+In an age where social networks are leading, we know how important technology and programming are in our daily lives.
+With our website, we offer young and curious children a new and fascinating learning experience, combining games and interesting activities
+We create an equal and accessible opportunity for children to experience programming and develop mental and constructive thinking abilities
+We developed an advanced website using advanced tools.
+On the client side (Front-End), we used React JS technology with the MUI framework to build the user interface
+For state management on the site, we used Redux technology that helps with central state management and data storage.
+To manage the software packages, we used the NPM tool - Node Package Manager
+In addition, using the GIT tool we managed the process of developing and integrating the code
+We chose the Vercel platform, which provides the ability to develop and publish fast and efficient code.
+With every tool and technology we used, we made sure to maintain high standards and combine them impressively to create an excellent user experience and smooth operation of our website
 
-## Available Scripts
+## HOME PAGE
+<img width="675" alt="image" src="https://github.com/maayanadivi/kidev/assets/73596043/a95651e1-9419-47ff-8bc6-e07900b84ee8">
 
-In the project directory, you can run:
 
-### `npm start`
+## STUDY UNITS
+<img width="596" alt="image" src="https://github.com/maayanadivi/kidev/assets/73596043/6800f18d-c7ee-4d9b-91da-9bb4276b5f14">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## UNIT 1 
+Variable unit 
+At the end of the study units there is a memory game that tests the child about the study units.
+The goal is for the child to be able to both play and learn.
+One of the best ways to learn is through play
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img width="788" alt="image" src="https://github.com/maayanadivi/kidev/assets/73596043/044cb0ad-af7b-406f-8553-2ccc13be663e">
 
-### `npm test`
+<img width="648" alt="image" src="https://github.com/maayanadivi/kidev/assets/73596043/d9b50a23-5621-4df1-be3e-2d5eeacbe1d0">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## UNIT 2
+Input and characters
 
-### `npm run build`
+<img width="768" alt="image" src="https://github.com/maayanadivi/kidev/assets/73596043/667d0d05-23fa-4426-bb8b-64d1ad57c053">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ QUIZ
+ At the end of the unit we will play a trivia game that tests the understanding of the information
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ <img width="781" alt="image" src="https://github.com/maayanadivi/kidev/assets/73596043/756091d9-487a-4391-bd50-7274348f912c">
+ 
+ ## UNIT 3
+ Condition
+ In this unit we will learn about conditions, we will see the use of IF and the use of ELSE and their meaning.
+ 
+ <img width="772" alt="image" src="https://github.com/maayanadivi/kidev/assets/73596043/9d395aa4-3ecc-4a60-a67d-4197f49e27a3">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+QUIZ 
+At the end of the unit we will play a trivia game that tests the understanding of the information
 
-### `npm run eject`
+<img width="750" alt="image" src="https://github.com/maayanadivi/kidev/assets/73596043/7f08c655-35cf-4195-aca5-73f207fb8fab">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## FOOTHER
+Here appear all kinds of services that the site provides such as jobs, terms of use, technical support, information about the vision and development of the site and more..
+There is a transition at the click of a button on LinkedIn, Facebook, WhatsApp and Instagram
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img width="699" alt="image" src="https://github.com/maayanadivi/kidev/assets/73596043/300485f6-b50d-4104-b001-8c605e42c576">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+WE ARE HIRING- Here you can see the jobs that are available with us
+<img width="668" alt="image" src="https://github.com/maayanadivi/kidev/assets/73596043/1e5dbe1c-7398-40be-9ebf-e02e4ccdcfe5">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Our vision -Information about the establishment of the website and its goals
+<img width="480" alt="image" src="https://github.com/maayanadivi/kidev/assets/73596043/acd41142-bbed-4cd5-9c9e-b8bab103d743">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
